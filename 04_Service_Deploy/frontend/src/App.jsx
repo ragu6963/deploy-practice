@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function App() {
-  // API 서버의 주소(VITE_API_URL)를 환경 변수로 대체한다.
-
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
